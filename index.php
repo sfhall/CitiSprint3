@@ -1,6 +1,3 @@
-<?php
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,11 +7,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Citi Budget Portal</title>
 </head>
-
 <body>
-    <div class="container">
-<!--splash-->
-        <div id="splash">
+    <!--splash-->
+    <div id="splash">
             <div class="logo">
                 <img src="citibank.png">
             </div>
@@ -27,23 +22,5 @@
                 <i class="fa fa-bars" style="width:50px; height:50px;"></i>
             </div>
         </div>
-<!--content-->
-        <div class="power">
-            <p>
-            <iframe width="1540" height="750" src="https://app.powerbi.com/reportEmbed?reportId=5ad12acc-af86-4860-9566-6591d28b0805&autoAuth=true&ctid=dc046083-4ce8-437a-bd49-e995b65e4d11&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXVzLWVhc3QyLXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0LyJ9" frameborder="0" allowFullScreen="true"></iframe>
-            </p>
-        </div>
-
-        <div class="buttons">
-            <button type="button">Input Data</button> 
-            <button type="button">Create Budget</button> 
-            <button type="button">Edit Budget</button> 
-        </div>
-
-        <div class="requests">
-            <p>requests</p>
-        </div>
-
-
 </body>
 </html>

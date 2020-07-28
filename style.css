@@ -67,10 +67,35 @@
 
 .logo {
   float: left;
+  padding: 10px;
 }
 
 .menu {
   float: right;
   text-align: right;
+  padding: 10px;
+}
+
+.buttons {
+  display: block;
+  color: white;
+  width: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10rem;
+}
+
+.buttons button {
+  margin: 10px;
+}
+
+.buttons button:hover {
+  background-color: #003B70;
+}
+
+.requests {
+  background-color: gainsboro;
+  border: 2px solid #003B70;
 }
 /*# sourceMappingURL=style.css.map */

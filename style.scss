@@ -1,0 +1,37 @@
+.logo {grid-area: logo;}
+.tab {grid-area: tab;}
+.menu {grid-area: menu;}
+.power {grid-area: power;}
+.buttons {grid-area: buttons;}
+.requests {grid-area: requests;}
+#splash {grid-area: splash;}
+
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "splash splash splash"
+    "power power buttons"
+    "power power requests";
+} 
+
+#splash {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 10% 80% 10%;
+    grid-template-areas: 
+    "logo tab menu";
+
+    background-color: #003B70;
+    margin: 0;
+}
+
+.logo {
+    float: left;
+}
+
+.menu {
+    float: right;
+    text-align: right;
+}
